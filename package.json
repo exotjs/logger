@@ -1,6 +1,6 @@
 {
   "name": "@exotjs/logger",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Pino-based logger plugin for Exot.",
   "author": "Daniel Regeci",
   "license": "MIT",
@@ -28,7 +28,7 @@
     }
   },
   "dependencies": {
-    "@exotjs/exot": "0.0.4",
+    "@exotjs/exot": "0.1.0",
     "pino": "8.17.1"
   },
   "devDependencies": {
@@ -40,6 +40,6 @@
     "vitest": "^1.0.1"
   },
   "peerDependencies": {
-    "@exotjs/exot": ">= 0.0.4"
+    "@exotjs/exot": ">= 0.1.0"
   }
 }

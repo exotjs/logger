@@ -8,7 +8,7 @@ The pino logger is available as `context.log` in the route handler:
 
 ```js
 import { Exot } from '@exotjs/exot';
-import logger from '@exotjs/logger';
+import { logger } from '@exotjs/logger';
 
 new Exot()
   .use(logger({
